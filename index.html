@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: 12px;
+      }
+    </style>
+    <div
+      style="
+        background-color: #ffba00;
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+      "
+      class="header"
+    >
+      <div class="row">
+        <div
+          style="margin-bottom: 20px; margin-top: 5px"
+          class="col-10 d-flex justify-content-between"
+        >
+          <div class="1">
+            <a
+              style="
+                margin: 20px 10px 10px 20px;
+                text-decoration: none;
+                color: black;
+              "
+              href=""
+              >Chợ tốt</a
+            >
+            <a
+              style="margin-right: 20px; text-decoration: none; color: black"
+              href=""
+              >Nhà tốt</a
+            >
+            <a
+              style="margin-right: 20px; text-decoration: none; color: black"
+              href=""
+              >Chợ tốt xe</a
+            >
+            <a
+              style="margin-right: 20px; text-decoration: none; color: black"
+              href=""
+              >Việc làm tốt</a
+            >
+          </div>
+          <div style="text-decoration: none" class="2">
+            <a
+              style="margin-right: 20px; text-decoration: none; color: black"
+              href=""
+              >Đóng góp ý kiến</a
+            >
+            <a
+              style="margin-right: 20px; text-decoration: none; color: black"
+              href=""
+              >Tải ứng dụng</a
+            >
+            <a
+              style="margin-right: 20px; text-decoration: none; color: black"
+              href=""
+              >Trợ giúp</a
+            >
+          </div>
+        </div>
+        <div style="margin-bottom: 20px" class="col-2">
+          <div style="width: 100%" class="btn-group" role="group">
+            <button
+              type="button"
+              class="btn btn-primary dropdown-toggle bg-secondary-subtle border border-0 text-dark"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i
+                style="margin-right: 15px; font-size: 15px"
+                class="fa-solid fa-bag-shopping"
+              ></i>
+              Dành cho người bán
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./my-post.html">Quản lý tin</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Gói Pro</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Dành cho đối tác</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="con2">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-6">
+                <a href="index.html" style="justify-content: unset"
+                  ><picture>
+                    <img
+                      style="padding-left: 20px"
+                      height="35"
+                      width="190"
+                      src="./Image/chotot-logo-appwrapper.png"
+                      alt="Chợ Tốt" /></picture
+                ></a>
+              </div>
+              <div style="justify-content: center" class="col-md-6 d-flex">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none">
+                  <path
+                    d="M4 18.5H20C20.55 18.5 21 18.05 21 17.5C21 16.95 20.55 16.5 20 16.5H4C3.45 16.5 3 16.95 3 17.5C3 18.05 3.45 18.5 4 18.5ZM4 13.5H20C20.55 13.5 21 13.05 21 12.5C21 11.95 20.55 11.5 20 11.5H4C3.45 11.5 3 11.95 3 12.5C3 13.05 3.45 13.5 4 13.5ZM3 7.5C3 8.05 3.45 8.5 4 8.5H20C20.55 8.5 21 8.05 21 7.5C21 6.95 20.55 6.5 20 6.5H4C3.45 6.5 3 6.95 3 7.5Z"
+                    fill="#222222"
+                  ></path>
+                </svg>
+                <div class="input-group mb-3">
+                  <button
+                    class="btn btn-outline-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="border: none; color: black"
+                  >
+                    Danh mục
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./products-details.html"
+                        >Bất động sản</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Xe cộ</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Đồ điện tử</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Việc làm</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="input-group mb-3">
+              <input
+                style="position: relative; padding: 8px; border-radius: 5px"
+                class="form-control"
+                placeholder="Tìm kiếm sản phẩm trên chợ tốt"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                style="
+                  position: absolute;
+                  right: 5px;
+                  top: 4px;
+                  border: none;
+                  background-color: orange;
+                "
+                class="btn btn-outline-secondary rounded"
+                type="button"
+              >
+                <a href=""
+                  ><i
+                    style="color: white"
+                    class="fa-solid fa-magnifying-glass"
+                  ></i
+                ></a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="row">
+              <div style="width: auto" class="col-md-10 d-flex">
+                <a href=""
+                  ><svg
+                    style="margin-right: 20px; color: black"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M19.4045 18.7012H4.58447C4.33116 18.6997 4.08267 18.6319 3.86373 18.5044C3.64479 18.377 3.46306 18.1945 3.33662 17.975C3.21018 17.7555 3.14344 17.5067 3.14307 17.2534C3.14269 17.0001 3.20868 16.7511 3.33447 16.5312C4.25656 14.6713 4.68036 12.6039 4.56447 10.5312V9.75119C4.56208 8.76941 4.75587 7.79705 5.13447 6.89119C5.50399 5.9826 6.05527 5.15909 6.75447 4.47119C7.44834 3.77705 8.27473 3.22952 9.18447 2.86119C10.0896 2.48125 11.0629 2.29067 12.0445 2.30119C14.0179 2.33276 15.8994 3.14096 17.2809 4.55055C18.6624 5.96015 19.4326 7.8575 19.4245 9.83119V10.5012C19.3053 12.5742 19.7293 14.6423 20.6545 16.5012C20.7789 16.7226 20.8442 16.9723 20.8442 17.2262C20.8442 17.4801 20.7789 17.7298 20.6545 17.9512C20.5307 18.1738 20.3494 18.359 20.1295 18.4874C19.9096 18.6159 19.6591 18.6828 19.4045 18.6812V18.7012ZM11.9945 3.70119C11.2051 3.70057 10.4234 3.85571 9.69411 4.15773C8.96481 4.45974 8.30228 4.90269 7.74447 5.46119C7.17636 6.03386 6.72767 6.71369 6.42447 7.46119C6.13287 8.1891 5.98679 8.9671 5.99447 9.75119V9.75119V10.5012C6.11944 12.8302 5.62973 15.1512 4.57447 17.2312L19.4345 17.3012C18.4083 15.1855 17.914 12.8513 17.9945 10.5012V9.83119C18 8.22614 17.3737 6.68338 16.251 5.53633C15.1283 4.38928 13.5993 3.73008 11.9945 3.70119V3.70119Z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M11.9945 22.4508C11.5081 22.4529 11.0261 22.3585 10.5764 22.1731C10.1267 21.9877 9.71819 21.715 9.37453 21.3708C8.68295 20.6741 8.29475 19.7324 8.29453 18.7508V18.0008C8.29453 17.8151 8.36827 17.6371 8.49955 17.5058C8.63083 17.3745 8.80887 17.3008 8.99452 17.3008C9.18018 17.3008 9.35822 17.3745 9.4895 17.5058C9.62078 17.6371 9.69452 17.8151 9.69452 18.0008V18.7508C9.69584 19.3609 9.9364 19.9461 10.3645 20.3808C10.8081 20.7912 11.3902 21.0192 11.9945 21.0192C12.5989 21.0192 13.181 20.7912 13.6245 20.3808C14.0526 19.9461 14.2932 19.3609 14.2945 18.7508V18.0008C14.2945 17.8151 14.3683 17.6371 14.4995 17.5058C14.6308 17.3745 14.8089 17.3008 14.9945 17.3008C15.1802 17.3008 15.3582 17.3745 15.4895 17.5058C15.6208 17.6371 15.6945 17.8151 15.6945 18.0008V18.7508C15.6958 19.237 15.601 19.7188 15.4156 20.1683C15.2301 20.6178 14.9576 21.0262 14.6138 21.37C14.2699 21.7139 13.8615 21.9863 13.412 22.1718C12.9625 22.3573 12.4808 22.4521 11.9945 22.4508Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+
+                <a href="./chat.html"
+                  ><svg
+                    style="margin-right: 20px"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3.7499 4.34844C3.71012 4.34844 3.67197 4.36424 3.64384 4.39237C3.61571 4.4205 3.5999 4.45866 3.5999 4.49844V15.2422L6.33529 13.0318C6.44205 12.9455 6.57515 12.8984 6.7124 12.8984H15.7499C15.7897 12.8984 15.8278 12.8826 15.856 12.8545C15.8841 12.8264 15.8999 12.7882 15.8999 12.7484V4.49844C15.8999 4.45865 15.8841 4.4205 15.856 4.39237C15.8278 4.36424 15.7897 4.34844 15.7499 4.34844H3.7499ZM2.79531 3.54384C3.04848 3.29067 3.39186 3.14844 3.7499 3.14844H15.7499C16.1079 3.14844 16.4513 3.29067 16.7045 3.54384C16.9577 3.79702 17.0999 4.1404 17.0999 4.49844V12.7484C17.0999 13.1065 16.9577 13.4499 16.7045 13.703C16.4513 13.9562 16.1079 14.0984 15.7499 14.0984H6.92453L3.37701 16.9651C3.19721 17.1104 2.94992 17.1395 2.74132 17.0399C2.53271 16.9402 2.3999 16.7296 2.3999 16.4984V4.49844C2.3999 4.14039 2.54213 3.79702 2.79531 3.54384Z"
+                      fill="#222222"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M15.8999 8.24844C15.8999 7.91707 16.1685 7.64844 16.4999 7.64844H20.2499C20.6079 7.64844 20.9513 7.79067 21.2045 8.04384C21.4577 8.29702 21.5999 8.6404 21.5999 8.99844V20.9984C21.5999 21.2296 21.4671 21.4402 21.2585 21.5399C21.0499 21.6395 20.8026 21.6104 20.6228 21.4651L17.0753 18.5984H8.2499C7.89186 18.5984 7.54848 18.4562 7.29531 18.203C7.04213 17.9499 6.8999 17.6065 6.8999 17.2484V13.4984C6.8999 13.1671 7.16853 12.8984 7.4999 12.8984C7.83127 12.8984 8.0999 13.1671 8.0999 13.4984V17.2484C8.0999 17.2882 8.11571 17.3264 8.14384 17.3545C8.17197 17.3826 8.21012 17.3984 8.2499 17.3984H17.2874C17.4247 17.3984 17.5578 17.4455 17.6645 17.5318L20.3999 19.7422V8.99844C20.3999 8.95865 20.3841 8.9205 20.356 8.89237C20.3278 8.86424 20.2897 8.84844 20.2499 8.84844H16.4999C16.1685 8.84844 15.8999 8.57981 15.8999 8.24844Z"
+                      fill="#222222"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.7998 7.23047C6.7998 6.95433 6.99168 6.73047 7.22838 6.73047H12.3712C12.6079 6.73047 12.7998 6.95433 12.7998 7.23047C12.7998 7.50661 12.6079 7.73047 12.3712 7.73047H7.22838C6.99168 7.73047 6.7998 7.50661 6.7998 7.23047Z"
+                      fill="#222222"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.7998 10.2305C6.7998 9.95433 6.99168 9.73047 7.22838 9.73047H12.3712C12.6079 9.73047 12.7998 9.95433 12.7998 10.2305C12.7998 10.5066 12.6079 10.7305 12.3712 10.7305H7.22838C6.99168 10.7305 6.7998 10.5066 6.7998 10.2305Z"
+                      fill="#222222"
+                    ></path></svg
+                ></a>
+
+                <a href=""
+                  ><svg
+                    style="margin-right: 20px; color: black"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M5.38278 7.30078H18.6172C19.8276 7.30078 20.8486 8.20207 20.9987 9.4031L22.2487 19.4031C22.4277 20.8355 21.3108 22.1008 19.8672 22.1008H4.13278C2.68918 22.1008 1.57225 20.8355 1.75131 19.4031L3.00131 9.4031C3.15144 8.20207 4.1724 7.30078 5.38278 7.30078ZM5.38278 8.70078H18.6172C19.1215 8.70078 19.5469 9.07632 19.6095 9.57675L20.8595 19.5767C20.9341 20.1736 20.4687 20.7008 19.8672 20.7008H4.13278C3.53128 20.7008 3.06589 20.1736 3.1405 19.5767L4.3905 9.57675C4.45305 9.07632 4.87845 8.70078 5.38278 8.70078Z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 4.2C10.3713 4.2 9.05105 5.46639 9.05105 7.02857V10.8C9.05105 11.1314 8.77099 11.4 8.42552 11.4C8.08005 11.4 7.79999 11.1314 7.79999 10.8V7.02857C7.79999 4.80365 9.68039 3 12 3C14.3196 3 16.2 4.80365 16.2 7.02857V10.8C16.2 11.1314 15.9199 11.4 15.5745 11.4C15.229 11.4 14.9489 11.1314 14.9489 10.8V7.02857C14.9489 5.46639 13.6286 4.2 12 4.2Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+
+                <a
+                  style="
+                    margin-right: 10px;
+                    color: black;
+                    text-decoration: none;
+                  "
+                  href="./my-post.html"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M6.28571 2C5.14907 2 4.05898 2.45153 3.25526 3.25526C2.45153 4.05898 2 5.14907 2 6.28571V17.7143C2 18.8509 2.45153 19.941 3.25526 20.7447C4.05898 21.5485 5.14907 22 6.28571 22H17.7143C18.8509 22 19.941 21.5485 20.7447 20.7447C21.5485 19.941 22 18.8509 22 17.7143V6.28571C22 5.14907 21.5485 4.05898 20.7447 3.25526C19.941 2.45153 18.8509 2 17.7143 2H6.28571ZM3.42857 6.28571C3.42857 5.52795 3.72959 4.80123 4.26541 4.26541C4.80123 3.72959 5.52795 3.42857 6.28571 3.42857H17.7143C18.472 3.42857 19.1988 3.72959 19.7346 4.26541C20.2704 4.80123 20.5714 5.52795 20.5714 6.28571V17.7143C20.5714 18.472 20.2704 19.1988 19.7346 19.7346C19.1988 20.2704 18.472 20.5714 17.7143 20.5714H6.28571C5.52795 20.5714 4.80123 20.2704 4.26541 19.7346C3.72959 19.1988 3.42857 18.472 3.42857 17.7143V6.28571Z"
+                      fill="currentColor"
+                    ></path>
+                    <rect
+                      x="6"
+                      y="7"
+                      width="3"
+                      height="3"
+                      rx="1.5"
+                      fill="currentColor"
+                    ></rect>
+                    <path
+                      d="M12 8.5C12 8.08579 12.3358 7.75 12.75 7.75H17.25C17.6642 7.75 18 8.08579 18 8.5C18 8.91421 17.6642 9.25 17.25 9.25H12.75C12.3358 9.25 12 8.91421 12 8.5Z"
+                      fill="currentColor"
+                    ></path>
+                    <rect
+                      x="6"
+                      y="14"
+                      width="3"
+                      height="3"
+                      rx="1.5"
+                      fill="currentColor"
+                    ></rect>
+                    <path
+                      d="M12 15.5C12 15.0858 12.3358 14.75 12.75 14.75H17.25C17.6642 14.75 18 15.0858 18 15.5C18 15.9142 17.6642 16.25 17.25 16.25H12.75C12.3358 16.25 12 15.9142 12 15.5Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  <span
+                    ><button
+                      class="btn"
+                      type="button"
+                      aria-expanded="false"
+                      style="border: none; color: black"
+                    >
+                      Quản lý tin
+                    </button></span
+                  ></a
+                >
+
+                <div class="d-flex">
+                  <div class="col">
+                    <i
+                      style="font-size: 24px"
+                      class="fa-regular fa-circle-user"
+                    ></i>
+                  </div>
+
+                  <div class="input-group mb-3">
+                    <button
+                      class="btn dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      style="border: none; color: black"
+                    >
+                      Tài khoản
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./user/login.html"
+                          >Đăng nhập</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="./user/register.html"
+                          >Đăng ký</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <a href="./post.html"
+                  ><button
+                    style="
+                      width: 100%;
+                      color: white;
+                      background-color: #ff8800;
+                      border: none;
+                      width: 140px;
+                      height: 30px;
+                      font-size: 16px;
+                      margin-left: 50px;
+                      border-radius: 5px;
+                    "
+                  >
+                    <i
+                      style="margin-right: 10px; font-size: 15px"
+                      class="fa-regular fa-pen-to-square"
+                    ></i>
+                    ĐĂNG TIN
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // header // -->
+    <!-- // header // -->
+    <!-- // header // -->
+    <div
+      class="content1"
+      style="background-color: #e2e3e5; padding: 100px 250px 10px 250px"
+    >
+      <div style="padding: 10px; background-color: white">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Image/home1.png" class="d-block w-100" alt="" />
+            </div>
+            <div class="carousel-item">
+              <img src="./Image/home2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Image/banner-xpander.webp"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div
+          class="d-flex justify-content-between"
+          style="
+            text-align: center;
+            margin-top: 15px;
+            padding: 5px 20px 0px 20px;
+          "
+        >
+          <div>
+            <img
+              alt="Thu mua điện thoại"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FYAZT-yk1q6NsX00pyCMCkztFxEX1LT9OW2G1B8WlaXk%2Fpreset%3Araw%2Fplain%2Fae798f4ba155d2c9f30d555b77a526b6-2853893244263399934.jpg&amp;w=256&amp;q=95"
+              decoding="async"
+              width="40px"
+              height="40px"
+              style="margin-bottom: 5px"
+            />
+            <p>Thu mua điện thoại</p>
+          </div>
+          <div>
+            <img
+              alt="Nạp Đồng Tốt"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FvmzgXwahsyAR3yqOFOxlC4I54sBtGC8KeSqPhnVqo3M%2Fpreset%3Araw%2Fplain%2Fea30aa00d4c36d21a6d56fe745397327-2741458954087890671.jpg&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FvmzgXwahsyAR3yqOFOxlC4I54sBtGC8KeSqPhnVqo3M%2Fpreset%3Araw%2Fplain%2Fea30aa00d4c36d21a6d56fe745397327-2741458954087890671.jpg&amp;w=256&amp;q=95"
+              decoding="async"
+              width="40px"
+              height="40px"
+              style="margin-bottom: 5px"
+            />
+            <p>Nạp Đồng Tốt</p>
+          </div>
+          <div>
+            <img
+              alt="Thu mua ô tô"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2F3xjm4bI3TvIEMmH7ixXfvgrsNlJAuUUjt1D0Ye8gsPM%2Fpreset%3Araw%2Fplain%2F217a8c3c38a20721fb3e985b432e2c3d-2871731397826950358.jpg&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2F3xjm4bI3TvIEMmH7ixXfvgrsNlJAuUUjt1D0Ye8gsPM%2Fpreset%3Araw%2Fplain%2F217a8c3c38a20721fb3e985b432e2c3d-2871731397826950358.jpg&amp;w=256&amp;q=95"
+              decoding="async"
+              width="40px"
+              height="40px"
+              style="margin-bottom: 5px"
+            />
+            <p>Thu mua ô tô</p>
+          </div>
+          <div>
+            <img
+              alt="Chợ Tốt Ưu Đãi"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FTIuAGrBq3aKlyK_5A6rZF6W9TpYYcYrkCMX8qao5jYY%2Fpreset%3Araw%2Fplain%2F508bf25ad611db4034fa5dfde0fe8a73-2741458967710030990.jpg&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FTIuAGrBq3aKlyK_5A6rZF6W9TpYYcYrkCMX8qao5jYY%2Fpreset%3Araw%2Fplain%2F508bf25ad611db4034fa5dfde0fe8a73-2741458967710030990.jpg&amp;w=256&amp;q=95"
+              decoding="async"
+              width="40px"
+              height="40px"
+              style="margin-bottom: 5px"
+            />
+            <p>Chợ Tốt ưu đãi</p>
+          </div>
+          <div>
+            <img
+              alt="Gói Pro"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FlRml-H3PO0o270WLS26nv9eNs5TDVVfiuSVsHXENpIc%2Fpreset%3Araw%2Fplain%2F425fc9c8bdb4d028d8cc52628fbd047d-2804905330699599227.jpg&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FlRml-H3PO0o270WLS26nv9eNs5TDVVfiuSVsHXENpIc%2Fpreset%3Araw%2Fplain%2F425fc9c8bdb4d028d8cc52628fbd047d-2804905330699599227.jpg&amp;w=256&amp;q=95"
+              decoding="async"
+              width="40px"
+              height="40px"
+              style="margin-bottom: 5px"
+            />
+            <p>Gói Pro</p>
+          </div>
+          <div>
+            <img
+              alt="Tin đăng đã lưu"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FPeH_Zz-8hDT7yZ8F2Mm-BI4p7HWGasDhgq8I_7xdXyk%2Fpreset%3Araw%2Fplain%2Fe16cec7ca2ff9d7649268427ea9c1e4e-2741458979427623023.jpg&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FPeH_Zz-8hDT7yZ8F2Mm-BI4p7HWGasDhgq8I_7xdXyk%2Fpreset%3Araw%2Fplain%2Fe16cec7ca2ff9d7649268427ea9c1e4e-2741458979427623023.jpg&amp;w=256&amp;q=95"
+              decoding="async"
+              width="40px"
+              height="40px"
+              style="margin-bottom: 5px"
+            />
+            <p>Tin đăng đã lưu</p>
+          </div>
+          <div>
+            <img
+              alt="Đăng tin cho tặng"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FBJ2sRQGytbTbBoxCqR3juzBaObXNvsJz9Q9KC8O73gQ%2Fpreset%3Araw%2Fplain%2F930641d458c0e05889f865e35a0edefb-2763757223248164734.jpg&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Fadmincentre%2FBJ2sRQGytbTbBoxCqR3juzBaObXNvsJz9Q9KC8O73gQ%2Fpreset%3Araw%2Fplain%2F930641d458c0e05889f865e35a0edefb-2763757223248164734.jpg&amp;w=256&amp;q=95"
+              decoding="async"
+              width="40px"
+              height="40px"
+              style="margin-bottom: 5px"
+            />
+            <p>Đăng tin cho tặng</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="content2"
+      style="background-color: #e2e3e5; padding: 0px 250px 10px 250px"
+    >
+      <div style="padding: 10px; background-color: white">
+        <h4 style="padding: 5px; margin-bottom: 10px">Khám phá danh mục</h4>
+        <div
+          style="text-align: center; margin-left: 20px; margin-right: 20px"
+          class="d-flex justify-content-between"
+        >
+          <div>
+            <img
+              alt="Bất động sản"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F1000.png&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F1000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Bất động sản</p>
+          </div>
+          <div>
+            <img
+              alt="Xe cộ"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F2000.png&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F2000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Xe cộ</p>
+          </div>
+          <div>
+            <img
+              alt="Đồ điện tử"
+              srcset="
+                https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F5000.png&amp;w=256&amp;q=95 1x
+              "
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F5000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Đồ điện tử</p>
+          </div>
+          <div>
+            <img
+              alt="Đồ gia dụng, nội thất, cây cảnh"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F14000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Đồ gia dụng, nội thất,<br />cây cảnh</p>
+          </div>
+          <div>
+            <img
+              alt="Giải trí, Thể thao, Sở thích"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F4000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">
+              Giải trí, Thể thao,<br />
+              Sở thích
+            </p>
+          </div>
+          <div>
+            <img
+              alt="Mẹ và bé"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F11000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Mẹ và bé</p>
+          </div>
+          <div>
+            <img
+              alt="Dịch vụ, Du lịch"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F6000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Dịch vụ, Du lịch</p>
+          </div>
+        </div>
+        <div
+          style="text-align: center; margin-left: 20px; margin-right: 20px"
+          class="d-flex justify-content-between"
+        >
+          <div>
+            <img
+              alt="Việc làm"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F13000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Việc làm</p>
+          </div>
+          <div>
+            <img
+              alt="Thú cưng"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F12000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Thú cưng</p>
+          </div>
+          <div>
+            <img
+              alt="Đồ ăn, thực phẩm và các loại khác"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F7000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">
+              Đồ ăn, Thực Phẩm và <br />Các Loại Khác
+            </p>
+          </div>
+          <div>
+            <img
+              alt="Tủ lạnh, máy lạnh, máy giặt"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F9000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">
+              Tủ lạnh, máy lạnh,<br />
+              máy giặt
+            </p>
+          </div>
+          <div>
+            <img
+              alt="Thời trang, Đồ dùng cá nhân"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F3000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">
+              Thời trang,<br />
+              Đồ dùng cá nhân
+            </p>
+          </div>
+          <div>
+            <img
+              alt="Đồ dùng văn phòng, công nông nghiệp"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F8000.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Đồ dùng văn phòng</p>
+          </div>
+          <div>
+            <img
+              alt="Cho tặng miễn phí"
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2Fcho-tang-mien-phi.png&amp;w=256&amp;q=95"
+              decoding="async"
+              width="100px"
+              height="100px"
+            />
+            <p style="margin-top: 10px">Cho tặng miễn phí</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="content3"
+      style="background-color: #e2e3e5; padding: 0px 250px 0px 250px"
+    >
+      <div style="padding: 10px; background-color: white">
+        <h4 style="padding: 5px; margin-top: 5px">Tin đăng dành cho bạn</h4>
+        <hr />
+        <div class="box1 d-flex">
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+        </div>
+        <hr />
+        <div class="box2 d-flex">
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+          <button style="border: none; padding: 9px; background-color: white">
+            <div class="col">
+              <img
+                style="margin-bottom: 10px"
+                width="180px"
+                height="160px"
+                alt="Nhà Đẹp Full Nội Thất Phú Nhuận , Giá Tốt"
+                src="https://cdn.chotot.com/ogF4m2uDq4pA1AOzcu-blubWCmmUwO_7oNqU8V6C3Bg/preset:listing/plain/786ee78b85f60c8c2cd6ecddb78279e3-2874260008318039156.jpg"
+              />
+              <h5 class="d-flex" style="margin-bottom: 5px">
+                Ngang 6M, Lê Văn Sỹ,<br />Phường 13 Phú Nhuận
+                <i
+                  style="padding-left: 15px; font-size: 16px"
+                  class="fa-solid fa-ellipsis-vertical"
+                ></i>
+              </h5>
+              <h6>120 m2 - 5 PN</h6>
+              <h6>18,9 tỷ</h6>
+              <p>
+                <img
+                  style="margin-right: 8px"
+                  class="commonStyle_image__2y3kd"
+                  width="15"
+                  src="https://static.chotot.com/storage/chotot-icons/next/pro.svg"
+                  alt="Môi giới"
+                />22 Giờ Trước
+              </p>
+            </div>
+          </button>
+        </div>
+        <hr />
+      </div>
+      <a style="text-decoration: none; text-align: center" href=""
+        ><h4 style="margin-top: 10px; color: #3869b5">Xem thêm</h4></a
+      >
+
+      <div style="margin-top: 50px" class="text">
+        <h3>
+          Chợ Tốt - Chợ Mua Bán, Rao Vặt Trực Tuyến Hàng Đầu Của Người Việt
+        </h3>
+        <p>
+          Chợ Tốt chính thức gia nhập thị trường Việt Nam vào đầu năm 2012, với
+          mục đích tạo ra cho bạn một kênh rao vặt trung gian, kết nối người mua
+          với người bán lại với nhau bằng những giao dịch cực kỳ đơn giản, tiện
+          lợi, nhanh chóng, an toàn, mang đến hiệu quả bất ngờ.
+        </p>
+        <p>
+          Đến nay, Chợ Tốt tự hào là Website rao vặt được ưa chuộng hàng đầu
+          Việt Nam. Hàng ngàn món hời từ
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://www.nhatot.com/"
+            rel="noopener"
+            >Bất động sản, Nhà cửa</a
+          >,
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://xe.chotot.com"
+            rel="noopener"
+            >Xe cộ</a
+          >,
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://www.chotot.com/mua-ban-do-dien-tu"
+            rel="noopener"
+            >Đồ điện tử</a
+          >, Thú cưng, Vật dụng cá nhân... đến
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://www.vieclamtot.com/viec-lam"
+            rel="noopener"
+            >tìm việc làm</a
+          >, thông tin tuyển dụng, các dịch vụ - du lịch được đăng tin, rao bán
+          trên Chợ Tốt.
+        </p>
+        <p>
+          Với Chợ Tốt, bạn có thể dễ dàng mua bán, trao đổi bất cứ một loại mặt
+          hàng nào, dù đó là đồ cũ hay đồ mới với nhiều lĩnh vực:
+        </p>
+        <p>
+          <strong>Bất động sản:</strong> Cho thuê, Mua bán
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://www.nhatot.com/mua-ban-nha-dat"
+            rel="noopener"
+            >nhà đất</a
+          >,
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://www.nhatot.com/mua-ban-can-ho-chung-cu"
+            rel="noopener"
+            >căn hộ chung cư</a
+          >,
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://www.nhatot.com/sang-nhuong-van-phong-mat-bang-kinh-doanh"
+            rel="noopener"
+            >văn phòng mặt bằng kinh doanh</a
+          >, phòng trọ đa dạng về diện tích, vị trí
+        </p>
+
+        <p>
+          <strong>Phương tiện đi lại:</strong>&nbsp;<a
+            style="text-decoration: none; color: #387fc3"
+            href="https://xe.chotot.com/mua-ban-oto"
+            rel="noopener"
+            >Mua bán ô tô</a
+          >,
+          <a
+            style="text-decoration: none; color: #387fc3"
+            href="https://xe.chotot.com/mua-ban-xe-may"
+            rel="noopener"
+            >xe máy</a
+          >
+          có độ bền cao, giá cả hợp lý, giấy tờ đầy đủ.
+        </p>
+        <a style="text-decoration: none; color: #387fc3" href="">
+          <p style="text-align: center">
+            Mở rộng <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </p>
+        </a>
+      </div>
+
+      <h3 style="color: #9b9b9b">Các từ khóa phổ biến</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-dien-thoai-samsung-galaxy-note-10-sdmd2ml820"
+                ><span style="color: black">Samsung Note 10</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-dien-thoai-samsung-sdmd2"
+                ><span style="color: black">Điện thoại Samsung</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-dien-thoai-apple-sdmd1"
+                ><span style="color: black">Điện Thoại iPhone</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-tivi-am-thanh-karaoke-cu-sdat6ec3"
+                ><span style="color: black">Dàn karaoke cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-tivi-am-thanh-tivi-cu-sdat1ec3"
+                ><span style="color: black">Tivi cũ giá rẻ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.nhatot.com/thue-can-ho-chung-cu-tp-ho-chi-minh"
+                ><span style="color: black">Thuê Căn Hộ Chung Cư</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.nhatot.com/mua-ban-dat-tp-ho-chi-minh"
+                ><span style="color: black">Mua Bán Đất</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.nhatot.com/thue-nha-dat-tp-ho-chi-minh"
+                ><span style="color: black">Thuê Nhà Nguyên Căn</span></a
+              >
+            </li>
+            <br />
+          </div>
+          <div class="col">
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.nhatot.com/thue-phong-tro-tp-ho-chi-minh"
+                ><span style="color: black">Thuê Phòng Trọ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.nhatot.com/mua-ban-nha-dat-tp-ho-chi-minh"
+                ><span style="color: black">Mua Bán Nhà Đất</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-dien-thoai-samsung-cu-sdmd2ec3"
+                ><span style="color: black">Điện thoại Samsung Cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-ha-noi"
+                ><span style="color: black">Chợ đồ cũ Hà Nội</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-tp-ho-chi-minh"
+                ><span style="color: black">Chợ đồ cũ Sài Gòn</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-may-tinh-de-ban"
+                ><span style="color: black">Máy tính để bàn giá rẻ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-may-anh-may-quay-ong-kinh-cu-sdct3ec3"
+                ><span style="color: black">Ống kính (lens) cũ</span></a
+              >
+            </li>
+          </div>
+          <div class="col">
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-may-anh-may-quay-may-anh-cu-sdct1ec3"
+                ><span style="color: black">Máy ảnh cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-may-anh-may-quay-may-quay-cu-sdct2ec3"
+                ><span style="color: black">Máy quay cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-tivi-am-thanh-micro-cu-sdat5ec3"
+                ><span style="color: black">Micro cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-tivi-am-thanh-tai-nghe-cu-sdat4ec3"
+                ><span style="color: black">Tai Nghe Cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-tivi-am-thanh-amply-sdat3"
+                ><span style="color: black">Amply</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-tivi-am-thanh-loa-cu-sdat2ec3"
+                ><span style="color: black">Loa Cũ</span></a
+              >
+            </li>
+          </div>
+          <div class="col">
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-may-tinh-de-ban-cu-sdec3"
+                ><span style="color: black">Máy tính để bàn cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-may-tinh-bang-cu-sdec3"
+                ><span style="color: black">Máy Tính Bảng Cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-laptop-cu-sdec3"
+                ><span style="color: black">Laptop Cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-dien-thoai-cu-sdec3"
+                ><span style="color: black">Điện Thoại Cũ</span></a
+              >
+            </li>
+            <li style="padding: 5px">
+              <a
+                style="text-decoration: none"
+                href="https://www.chotot.com/mua-ban-laptop-apple-sdpb3"
+                ><span style="color: black">Laptop Apple Macbook</span></a
+              >
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // footer // -->
+    <!-- // footer // -->
+    <!-- // footer // -->
+    <!-- // footer // -->
+    <hr />
+    <div
+      style="background-color: white; padding: 20px 200px 0px 200px"
+      class="footer"
+    >
+      <div class="container">
+        <div style="padding-top: 10px" class="row">
+          <div class="col">
+            <h5>TẢI ỨNG DỤNG CHỢ TỐT</h5>
+            <div class="row">
+              <div class="col">
+                <img
+                  style="margin: 10px"
+                  alt="Chợ Tốt"
+                  class="aw__i1nbm5k4"
+                  src="https://static.chotot.com/storage/default/group-qr.jpeg"
+                  width="90"
+                  height="90"
+                />
+              </div>
+              <div class="col-md-6">
+                <a
+                  href="https://itunes.apple.com/us/app/chotot.vn/id790034666"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  ><img
+                    style="margin-bottom: 10px"
+                    width="100"
+                    height="100"
+                    class="img-thumbnail"
+                    alt="App Store"
+                    src="https://static.chotot.com/storage/default/ios.svg"
+                /></a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.chotot.vn"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  ><img
+                    style="margin-bottom: 10px"
+                    width="100"
+                    height="100"
+                    class="img-thumbnail"
+                    alt="Google Play"
+                    src="https://static.chotot.com/storage/default/android.svg"
+                /></a>
+                <img
+                  width="100"
+                  height="100"
+                  class="img-thumbnail"
+                  alt="App Huawei"
+                  src="https://static.chotot.com/storage/default/huawei_app_install.png"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h5 style="margin-bottom: 15px">HỖ TRỢ KHÁCH HÀNG</h5>
+            <div style="padding: 0" class="menu">
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Trung tâm trợ giúp</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>An toàn mua bán</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Liên hệ hỗ trợ</p></a
+              >
+            </div>
+          </div>
+          <div class="col">
+            <h5 style="margin-bottom: 15px">VỀ CHỢ TỐT</h5>
+            <div style="padding: 0" class="menu">
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Giới thiệu</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Quy chế hoạt động</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Chính sách bảo mật</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Giải quyết tranh chấp</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Tuyển dụng</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Truyền thông</p></a
+              >
+              <a
+                style="margin: bottom 5px; text-decoration: none; color: black"
+                href=""
+                ><p>Blog</p></a
+              >
+            </div>
+          </div>
+          <div class="col">
+            <h5 style="margin-bottom: 15px">LIÊN KẾT</h5>
+            <div style="margin-bottom: 15px" class="d-flex">
+              <div>
+                <a
+                  style="padding-right: 15px"
+                  href="https://www.facebook.com/chotot.vn"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  ><img
+                    alt="Facebook"
+                    width="35"
+                    height="35"
+                    src="https://static.chotot.com/storage/default/facebook.svg"
+                /></a>
+              </div>
+              <div>
+                <a
+                  style="padding-right: 15px"
+                  href="https://www.youtube.com/ChototVN"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  ><img
+                    alt="Youtube"
+                    width="35"
+                    height="35"
+                    src="https://static.chotot.com/storage/default/youtube.svg"
+                /></a>
+              </div>
+              <div>
+                <a
+                  href="https://linkedin.com/company/cho-tot"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  ><img
+                    alt="LinkedIn"
+                    width="35"
+                    height="35"
+                    src="https://static.chotot.com/storage/default/linkedin.svg"
+                /></a>
+              </div>
+            </div>
+
+            <div>
+              <h5 style="margin-bottom: 15px">CHỨNG NHẬN</h5>
+            </div>
+            <li style="list-style-type: none">
+              <a
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                href="http://online.gov.vn/Home/WebDetails/33119"
+                ><picture
+                  ><source
+                    type="image/webp"
+                    width="150"
+                    height="50"
+                    srcset="
+                      https://static.chotot.com/storage/default/certificate.webp
+                    " />
+                  <img
+                    class="img-thumbnail"
+                    alt="Certification"
+                    width="130"
+                    height="40"
+                    src="https://static.chotot.com/storage/default/cerfiticate.png" /></picture
+              ></a>
+            </li>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p style="text-align: center">
+        CÔNG TY TNHH CHỢ TỐT - Người đại diện theo pháp luật: Nguyễn Trọng Tấn;
+        GPDKKD: 0312120782 do sở KH & ĐT TP.HCM cấp ngày 11/01/2013; GPMXH:
+        17/GP-BTTTT do Bộ Thông tin và Truyền thông cấp ngày 15/01/2019 - Chịu
+        trách nhiệm nội dung: Trần Minh Ngọc. Chính sách sử dụng Địa chỉ: Tầng
+        18, Toà nhà UOA, Số 6 đường Tân Trào, Phường Tân Phú, Quận 7, Thành phố
+        Hồ Chí Minh, Việt Nam; Email: trogiup@chotot.vn - Tổng đài CSKH:
+        19003003 (1.000đ/phút)
+      </p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
